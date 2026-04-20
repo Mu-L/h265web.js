@@ -56,6 +56,15 @@ If [h265web.js](https://github.com/numberwolf/h265web.js) helps your project, gi
 - Protocol validation for MP4 / MOV / MKV / FLV / MPEG-TS / M3U8 / HLS / HTTP-FLV / WS-FLV / HTTP-TS / WS-TS / HEVC ES
 - Browser-side player projects that need seek, playbackRate, fullscreen, snapshot, MediaInfo, multi-instance playback and multi-thread decode
 
+### Integration Cases (Partial)
+
+| <img width="100" alt="Temu" src="https://user-images.githubusercontent.com/101395606/175973989-83175780-8b8f-43e3-bef9-6898a16a36fb.png"> | <img width="100" alt="Kwai" src="https://user-images.githubusercontent.com/101395606/175974004-3313eaea-cdb2-45eb-a9af-625028196892.png"> | <img width="100" alt="iQiYi" src="https://user-images.githubusercontent.com/101395606/175973913-e1bce7a4-4348-409f-aa7a-51987d91e7cb.png"> | <img width="100" alt="Baidu" src="https://user-images.githubusercontent.com/101395606/175973953-de4a6e9f-6bb1-4fec-8140-dfd088d6ba45.png"> | <img width="100" alt="Baidu Cloud" src="https://user-images.githubusercontent.com/101395606/175973965-70aa3f6b-8557-4300-a591-1e4d69c1231c.png"> | <img width="100" alt="Beijing Shutong Mofang" src="https://user-images.githubusercontent.com/101395606/175974028-9ca49903-7bec-4ee8-9de8-2c2b56bf35c6.png"> | <img width="100" alt="Hangzhou Chengzhi Tianyang" src="https://user-images.githubusercontent.com/101395606/175974037-65fd1b54-22e0-4bc3-a971-50b7d425dc8d.png"> | <img width="100" alt="Nanjing Yiyi" src="https://user-images.githubusercontent.com/101395606/175974049-a9df9ef9-6bb0-44bb-a900-a08cdae91116.png"> |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| Temu | Kwai | iQiYi | Baidu | Baidu Cloud | Beijing Shutong Mofang | Hangzhou Chengzhi Tianyang | Nanjing Yiyi |
+| <br> | <br> | <br> | <br> | <br> | <br> | <br> | <br> |
+| <img width="100" alt="Shandong World" src="https://user-images.githubusercontent.com/101395606/175974059-c9a7cff5-ca8a-4540-8b3f-f559e5b867fb.png"> | <img width="100" alt="Shanghai Unicom" src="https://user-images.githubusercontent.com/101395606/175974083-cdb98f54-d2a6-42e1-9129-d2934608f887.png"> | <img width="100" alt="Xi'an Sihua" src="https://user-images.githubusercontent.com/101395606/175974092-90bc48c4-2874-417e-a7b5-2ded8e06c29c.png"> | <br> | <br> | <br> | <br> | <br> |
+| Shandong World | Shanghai Unicom | Xi'an Sihua | <br> | <br> | <br> | <br> | <br> |
+
 ### Feature Matrix
 
 | Feature | Feature | Feature | Feature |
@@ -167,6 +176,7 @@ If [h265web.js](https://github.com/numberwolf/h265web.js) helps your project, gi
 | Chase Frame | Y | HTTP-FLV(no audio) |
 | PlayBackRate | Y | H.264/H.265/AV1 |
 | Resize | Y | ---- |
+| Get SEI Data | Y | ---- |
 
 <br>
 

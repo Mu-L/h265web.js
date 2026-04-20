@@ -167,6 +167,18 @@ ylplayer.on_seek_done_callback = function (seekTarget) {
 };
 ```
 
+如果你的流里带有额外 SEI 元数据，可以继续接这种功能回调。
+
+```js
+ylplayer.video_sei_raw_callback = function (rawSei, pts, dts, codec) {
+  console.log('video_sei_raw_callback', rawSei, pts, dts, codec);
+};
+
+ylplayer.video_sei_text_callback = function (text, pts, dts, codec) {
+  console.log('video_sei_text_callback', text, pts, dts, codec);
+};
+```
+
 ## 8. `build(config)` 常用字段
 
 ### 常用配置项

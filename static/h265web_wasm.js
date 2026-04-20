@@ -8464,6 +8464,8 @@ var _free = Module["_free"] = createExportWrapper("free", 1);
 
 var _bind_demuxer_callback = Module["_bind_demuxer_callback"] = createExportWrapper("bind_demuxer_callback", 10);
 
+var _bind_demuxer_sei_callback = Module["_bind_demuxer_sei_callback"] = createExportWrapper("bind_demuxer_sei_callback", 3);
+
 var _init_demuxer_ctx = Module["_init_demuxer_ctx"] = createExportWrapper("init_demuxer_ctx", 0);
 
 var _release_demuxer_ctx = Module["_release_demuxer_ctx"] = createExportWrapper("release_demuxer_ctx", 1);

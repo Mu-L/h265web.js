@@ -412,6 +412,24 @@ function wireCallbacks(player) {
         setStatus(elements.naluStatus, TEXT.naluStatus(pts, dts));
     };
 
+    player.video_sei_raw_callback = function(rawSei, pts, dts, codec) {
+        console.log('video_sei_raw_callback', {
+            rawSei,
+            pts,
+            dts,
+            codec
+        });
+    };
+
+    player.video_sei_text_callback = function(text, pts, dts, codec) {
+        console.log('video_sei_text_callback', {
+            text,
+            pts,
+            dts,
+            codec
+        });
+    };
+
     player.video_frame_callback = function(pts, w, h, cacheSize) {
         setStatus(elements.videoCache, TEXT.frameStatus(cacheSize, pts, w, h));
     };

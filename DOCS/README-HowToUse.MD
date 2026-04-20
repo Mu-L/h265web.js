@@ -167,6 +167,18 @@ ylplayer.on_seek_done_callback = function (seekTarget) {
 };
 ```
 
+If your stream carries extra SEI metadata, wire feature callbacks like this.
+
+```js
+ylplayer.video_sei_raw_callback = function (rawSei, pts, dts, codec) {
+  console.log('video_sei_raw_callback', rawSei, pts, dts, codec);
+};
+
+ylplayer.video_sei_text_callback = function (text, pts, dts, codec) {
+  console.log('video_sei_text_callback', text, pts, dts, codec);
+};
+```
+
 ## 8. Build Config Reference
 
 ### Common fields
